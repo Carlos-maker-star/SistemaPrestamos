@@ -13,7 +13,7 @@
     </head>
     <body>
         
-        <!-- MENSAJE DE SESSION DE ERROR -->
+        <!-- MENSAJE DE SESSION DE ERROR - HOLA CAMBIO GITHUT -->
         <% String mensaje = (String) session.getAttribute("mensaje"); %>    
         <h1>Error: <%= mensaje %></h1>
     </body>
